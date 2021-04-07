@@ -1,0 +1,13 @@
+import turtle
+turtle.screensize(800,600,"yellow")
+turtle.pensize(4)
+turtle.color('red','blue')
+turtle.begin_fill()
+turtle.circle(50)
+turtle.penup()
+turtle.forward(100)
+turtle.pendown()
+turtle.circle(50)
+turtle.end_fill()
+turtle.hideturtle()
+input()
