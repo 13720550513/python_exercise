@@ -1,0 +1,10 @@
+from turtle import*
+screensize(800,600,"yellow")
+pensize(3)
+color("red","blue")
+begin_fill()
+penup()
+circle(30)
+end_fill()
+hideturtle()
+input()
